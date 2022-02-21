@@ -51,8 +51,14 @@
 ### Contact
 
 Mail: <christopher.choras@yahoo.com><br>
-GitHub: [Cristoforos choras](https://github.com/CristoforosChoras)<br>
-LinkedIn: [your linkedIn](https://www.linkedin.com/in/christoforos-choras-213220223/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CristoforosChoras)
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christoforos-choras-213220223/)
+[![Yahoo!](https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white)](<christopher.choras@yahoo.com>)
+
+
+
+![]()
+
 
 ---
 
@@ -60,6 +66,6 @@ LinkedIn: [your linkedIn](https://www.linkedin.com/in/christoforos-choras-213220
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ---
