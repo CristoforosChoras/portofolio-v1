@@ -28,9 +28,11 @@
 
 ####portofolio project 
 
+
+
 ### How to use this Project
 
-lorem ........
+
 
 ##### Developed With
 
@@ -55,12 +57,9 @@ LinkedIn: [your linkedIn](https://www.linkedin.com/in/christoforos-choras-213220
 ---
 
 ### Used Tools
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-- [icons](https://)
-- [Canva](https://www.canva.com/)
-- [npm](https://www.npmjs.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [ColorZilla](https://www.colorzilla.com/chrome/)
 
 ---
