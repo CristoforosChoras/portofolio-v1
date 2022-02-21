@@ -1,15 +1,26 @@
+// for the header i used display flex to align my list at the end 
 header{
     grid-area: topmenu;
     background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     ul{
         display: flex;
         justify-content:end;
-        gap: 6%;
+        align-items: center;
+        gap: 10%;
         li{
             list-style: none;
-            
+            a{
+                text-decoration: none;
+            }
+            a:visited{
+                color: black;
+            }
             &:nth-child(4){
-                margin-right: 2%;
+                margin-right: 10%;
             }
         }
     }
