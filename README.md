@@ -28,11 +28,11 @@
 
 ####portofolio project 
 
-
+this is my personal portofolio more details soon 
 
 ### How to use this Project
 
-
+more dtails soon 
 
 ##### Developed With
 
