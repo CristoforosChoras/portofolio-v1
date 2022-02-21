@@ -1,1 +1,8 @@
 //Import Layout files
+@import "./header";
+@import"./main-content";
+@import "./footer";
+// main layout is grid 3 rows with header main-content and footer and no columns
+body{
+    display: grid;
+}
