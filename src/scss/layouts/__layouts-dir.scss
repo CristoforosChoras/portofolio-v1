@@ -6,10 +6,11 @@
 // main layout is grid 3 rows with header main-content and footer and no columns
 body{
     display: grid;
-    grid-template-rows: 6vh 110vh 50vh;
-    grid-template-columns: 100vw;
+    grid-template-rows: 5vh 190vh 60vh;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-    "topmenu"
+    "top-menu"
     "main"
     "footer";
+   
 }
