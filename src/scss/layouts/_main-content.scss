@@ -23,7 +23,14 @@ main{
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
+      .button-more-for-past{
+        width: 25%;
+        height: 12%;
+        background-color: #693434;
+        align-self: flex-start;
+        border-radius: 5px;
+      }
     }
     // div button dimensions and styles
   }
