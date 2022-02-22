@@ -8,7 +8,7 @@ main{
   justify-content: center;
   // first intro section has 1 main div and 2 divs inside one is the button and the second is the text
   .intro-section{
-    background-color: #B2A79E;
+    background-color: #e9e9e9;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -44,15 +44,18 @@ main{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    // inside box size and background colors
     .box{
       width: 50%;
       height: 50%;
       background-color: #AAA0A0;
+      // position items inside with flex
       &:nth-child(2),&:nth-child(3){
         background-color:#AEAAAA;
         display: flex;
         align-items: center;
         justify-content: center;
+        // size and styles for the 3rd inside box 
         div{
           width: 80%;
           height: 100%;
@@ -73,14 +76,16 @@ main{
       }
     }
   }
+  // last container in the main section styles size and positions
   .carousel-pictures-my-work{
     width: 100%;
     height: 100vh;
-    background-color: #B2A79E;
+    background-color: #e9e9e9;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    // carousel box coming soon 
     .carousel-my-work{
       width: 70%;
       height: 70%;
@@ -91,6 +96,7 @@ main{
       align-items: center;
       align-self: flex-end;
     }
+    // heading for my work 
     .heading-my-work{
       width: 20%;
       height: 8%;
@@ -104,6 +110,7 @@ main{
       align-items: center;
       align-self: flex-start;
     }
+    // link button to github account for more details my work 
     .button-more-on{
       width: 28%;
       height: 8%;
@@ -113,8 +120,6 @@ main{
       position: relative;
       bottom: 50%;
       left: 1%;
-      
     }
-
   }
 }
