@@ -49,9 +49,26 @@ main{
       background-color: #AAA0A0;
       &:nth-child(2),&:nth-child(3){
         background-color:#AEAAAA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+          width: 80%;
+          height: 100%;
+          border-radius: 100%;
+          background-color: #C4C4C4;
+        }
       }
       &:nth-child(1),&:nth-child(4){
         background-color:#8D8888;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+          width: 70%;
+          height: 80%;
+          background-color: #C4C4C4;
+        }
       }
     }
   }
