@@ -1,4 +1,4 @@
-// using display flex and gap to aling the nav and the logo div 
+// using display flex and gap to align the nav and the logo div 
 header{
     grid-area: header;
     background-color: aqua;
@@ -11,10 +11,10 @@ header{
         height: 60%;
         background-color: beige;
     }
+//div logo dimensions and styles 
     div{
         width: 10%;
         height: 60%;
         background-color: beige;
-        
     }
 }

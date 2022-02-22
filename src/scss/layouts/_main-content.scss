@@ -1,4 +1,24 @@
+// for the main layout i used flex with column directions
 main{
   grid-area: main;
   background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .intro-section{
+    background-color: #F5F2F2;
+    width: 100%;
+    height: 33.4%;
+  }
+  .about-me-section{
+    width: 100%;
+    height: 33.3%;
+    background-color: aqua;
+  }
+  .carousel-pictures-my-work{
+    width: 100%;
+    height: 33.3%;
+    background-color: #F5F2F2;
+  }
 }
