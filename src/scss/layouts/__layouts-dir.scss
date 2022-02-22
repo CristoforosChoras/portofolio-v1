@@ -6,7 +6,7 @@
 // main layout is grid 3 rows with header main-content and footer and no columns
 body{
     display: grid;
-    grid-template-rows: 8vh 210vh 10vh;
+    grid-template-rows: 8vh 380vh 10vh;
     grid-template-areas: 
     "header"
     "main"
