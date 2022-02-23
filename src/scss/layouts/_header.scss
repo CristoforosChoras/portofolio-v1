@@ -9,7 +9,7 @@ header{
     nav{
         width: 30%;
         height: 60%;
-        background-color: beige;
+        background-color: inherit;
         ul{
             display: flex;
             justify-content: space-evenly;
@@ -23,8 +23,7 @@ header{
             }
         }
     }
-//div logo dimensions and styles 
-        
+//div logo dimensions and styles     
 }
 img{
     height: 90%;

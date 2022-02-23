@@ -50,10 +50,15 @@ main{
         justify-content: center;
         // size and styles for the 3rd inside box 
         div{
-          width: 50%;
-          height: 90%;
+          width: 40%;
+          height: 80%;
           border-radius: 100%;
           background-color: #e9e9e9;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+          }
         }
       }
       &:nth-child(1),&:nth-child(4){
@@ -66,6 +71,9 @@ main{
           height: 70%;
           border-radius: 20px;
           background-color: #e9e9e9;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
         }
       }
     }
