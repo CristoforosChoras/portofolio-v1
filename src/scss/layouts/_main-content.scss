@@ -1,7 +1,7 @@
 // for the main layout i used flex with column directions
 main{
   grid-area: main;
-  background-color: brown;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,13 +24,6 @@ main{
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      p{
-  
-     
-      
-      
-      }
-      
     }
   }
   // about me main container dimensions and position
@@ -91,7 +84,7 @@ main{
       width: 70%;
       height: 70%;
       border-radius: 10px;
-      background-color: #693434;
+      background-color: #BFBEBE;
       display: flex;
       justify-content: center;
       align-items: center;

@@ -10,6 +10,18 @@ header{
         width: 30%;
         height: 60%;
         background-color: beige;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            & :nth-child(3){
+                width: 40%;
+                border-radius: 10px;
+                background-color: #BFBEBE;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
     }
 //div logo dimensions and styles 
         
