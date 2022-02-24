@@ -26,13 +26,9 @@
 
 ### About Project
 
-####portofolio project 
+#### portofolio project 
 
-this is my personal portofolio more details soon 
-
-### How to use this Project
-
-more dtails soon 
+this is my personal portofolio.here you can find more details about me and also contact information  
 
 ##### Developed With
 
