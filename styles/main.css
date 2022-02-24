@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 2em;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-more-for-past {
+  width: 0;
+  height: 10vh;
+  background-color: #bfbebe;
+  opacity: 0.8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-more-on {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  position: relative;
+  bottom: 50%;
+  left: 7%;
+}
+
+#feedback-page {
+  text-align: center;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 1px 1px 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background-color: white;
+}
+
+#button-blue {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #bfbebe;
+  color: black;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+#button-blue:hover {
+  background-color: #e9e9e9;
+  color: orange;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+header {
+  grid-area: header;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50%;
+}
+header nav {
+  width: 30%;
+  height: 60%;
+  background-color: inherit;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav ul :nth-child(3) {
+  width: 40%;
+  border-radius: 10px;
+  background-color: #BFBEBE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 0 #e9e9e9;
+  transition: ease-out 0.7s;
+}
+header nav ul :nth-child(3):nth-child(3):hover {
+  box-shadow: inset 300px 0 0 0 #e9e9e9;
+}
+
+img {
+  height: 90%;
+  border-radius: 10px;
+}
+
+main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .intro-section {
+  background-color: #e9e9e9;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .intro-section .intro-main-div {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .about-me-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #dedbdb;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .about-me-section .box {
+  width: 50%;
+  height: 50%;
+  background-color: #dedbdb;
+}
+main .about-me-section .box:nth-child(2), main .about-me-section .box:nth-child(3) {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .about-me-section .box:nth-child(2) div, main .about-me-section .box:nth-child(3) div {
+  width: 40%;
+  height: 80%;
+  border-radius: 100%;
+  background-color: #e9e9e9;
+}
+main .about-me-section .box:nth-child(2) div img, main .about-me-section .box:nth-child(3) div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+main .about-me-section .box:nth-child(1), main .about-me-section .box:nth-child(4) {
+  background-color: #bfbebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .about-me-section .box:nth-child(1) div, main .about-me-section .box:nth-child(4) div {
+  width: 50%;
+  height: 70%;
+  border-radius: 20px;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+main .about-me-section .box:nth-child(1) div a, main .about-me-section .box:nth-child(4) div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .carousel-pictures-my-work {
+  width: 100%;
+  height: 100vh;
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+main .carousel-pictures-my-work .carousel-my-work {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #bfbebe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+main .carousel-pictures-my-work .heading-my-work {
+  position: relative;
+  top: 11.5%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+main .button-more-for-past {
+  width: 60vw;
+  height: 7vh;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #BFBEBE;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer-logo {
+  height: 100%;
+  position: relative;
+}
+footer nav {
+  background-color: inherit;
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 9vh 300vh 19vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-rows: 9vh 500vh 19vh;
+    grid-template-areas: "header" "main" "footer";
+  }
+  body header nav {
+    display: none;
+  }
+  body footer nav {
+    display: none;
+  }
+  body .about-me-section {
+    width: 100%;
+    height: 300vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  body .about-me-section .box {
+    width: 100%;
+    height: 100%;
+  }
+  body .carousel-pictures-my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  body .carousel-pictures-my-work .carousel-my-work {
+    width: 100%;
+    height: 30%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
