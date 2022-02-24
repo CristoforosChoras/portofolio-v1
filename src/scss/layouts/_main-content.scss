@@ -39,7 +39,6 @@ main {
     .box {
       width: 50%;
       height: 50%;
-      border-radius: 20px;border: 2px black solid;
       background-color: #dedbdb;
       // position items inside with flex
       &:nth-child(2),
