@@ -21,9 +21,9 @@ header{
                 align-items: center;
                 justify-content: center;
                 box-shadow: inset 0 0 0 0 #e9e9e9;
-                transition: ease-out 0.5s;
+                transition: ease-out 0.7s;
                 &:nth-child(3):hover{
-                    box-shadow: inset 200px 0 0 0 #e9e9e9;
+                    box-shadow: inset 300px 0 0 0 #e9e9e9;
                 }
             }
         }
